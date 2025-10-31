@@ -1,0 +1,67 @@
+import product1 from "../assets/product1.png";
+
+const description = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`;
+
+export default [
+  {
+    img: product1,
+    title: "Product1",
+    id: 1,
+    genre: "Fantasy",
+    rating: 4.5,
+    author: "John Doe",
+    year: 2021,
+    publisher: "DreamWorks Publishing",
+    description,
+    hasAudio: true,
+  },
+  {
+    img: product1,
+    title: "product1",
+    id: 2,
+    genre: "Fantasy",
+    rating: 4.5,
+    author: "Emily Carter",
+    year: 2020,
+    publisher: "Moonlight Books",
+    description,
+    hasAudio: true,
+  },
+  {
+    img: product1,
+    title: "Product3",
+    id: 3,
+    genre: "Fantasy",
+    rating: 4.5,
+    author: "Michael Reed",
+    year: 2019,
+    publisher: "Epic Tales Press",
+    description,
+    hasAudio: true,
+  },
+  {
+    img: product1,
+    title: "Product4",
+    id: 4,
+    genre: "Fantasy",
+    rating: 4.5,
+    author: "Sarah Johnson",
+    year: 2022,
+    publisher: "Silverline Publishers",
+    description,
+    hasAudio: true,
+  },
+  {
+    img: product1,
+    title: "Product5",
+    id: 5,
+    genre: "Fantasy",
+    rating: 4.5,
+    author: "David Miller",
+    year: 2023,
+    publisher: "Phoenix House",
+    description,
+    hasAudio: true,
+  },
+];
