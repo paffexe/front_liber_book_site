@@ -24,6 +24,7 @@
   --dark-primary: #131c4b;
   --dark-gray-on-dark: #8e9bdf;
   --primary-soft: #eef4ff;
+  --dark-purple: #11142D;
 }
 
 .text-primary {
@@ -33,6 +34,11 @@
 .text-gray01 {
   color: var(--dark-gray)
 }
+
+.text-dark-purple {
+  color: var(--dark-purple)
+}
+
 
 .text-main{
   color: var(--text)

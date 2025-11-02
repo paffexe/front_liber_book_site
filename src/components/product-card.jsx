@@ -1,17 +1,19 @@
 import star from "../assets/books/star.svg";
 import headphone from "../assets/books/headphone.svg";
 import book from "../assets/books/book.svg";
+import { Link } from "react-router-dom";
 
-
-export const ProductCard = ({ img, title, genre, rating, hasAudio }) => {
+export const ProductCard = ({ id, img, title, genre, rating, hasAudio }) => {
   return (
     <div className="w-60">
       <div>
         <img src={img} alt={title} className="rounded-2xl" />
 
-        <h2 className="mt-[18px] mb-3 font-bold text-[20px] leading-[100%]">
-          {title}
-        </h2>
+        <Link to={`/product/${id}`}>
+          <h2 className="mt-[18px] mb-3 font-bold text-[20px] leading-[100%]">
+            {title}
+          </h2>
+        </Link>
 
         <p className="text-[14px] leading-[100%] text-[#3F51B5] mb-4 uppercase">
           {genre}
