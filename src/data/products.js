@@ -18,7 +18,7 @@ export default [
   },
   {
     img: product1,
-    title: "product1",
+    title: "product2",
     id: 2,
     genre: "Fantasy",
     rating: 4.5,
