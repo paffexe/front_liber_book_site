@@ -56,6 +56,10 @@
   color: var(--gray)
 }
 
+.border-primary {
+  color: var(--primary)
+}
+
 .border-grayrd {
   color: var(--gray03)
 }

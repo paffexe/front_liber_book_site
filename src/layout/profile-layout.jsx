@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 import girl from "../assets/profile/girl.png";
@@ -33,65 +32,84 @@ const ProfileLayout = () => {
         </div>
       </div>
       <div className="flex gap-9">
-        <div className="flex gap-[7px] flex-col w-[288px] border border-blue-400 px-6 pt-7 pb-12">
+        <div className="flex gap-[7px] flex-col w-[288px] pt-7 pb-12 rounded-2xl shadow-md bg-white">
           <NavLink
+            end
             to={"/profile"}
             className={({ isActive }) =>
               `flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary ${
                 isActive
-                  ? "border-blue-500 font-bold pl-2 border-l-[5px] "
+                  ? "border-primary font-bold border-l-[5px] "
                   : "border-transparent font-normal"
               }`
             }
           >
-            <img src={obuna} alt="" className="w-6" />
-            <p>Обуна бўлиш</p>
+            <div className="flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary pl-6">
+              <img src={obuna} alt="" className="w-6" />
+              <p>Обуна бўлиш</p>
+            </div>
           </NavLink>
           <NavLink
             to={"wallet"}
             className={({ isActive }) =>
               `flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary ${
-                isActive ? "font-bold" : "font-normal"
+                isActive
+                  ? "border-primary font-bold border-l-[5px] "
+                  : "border-transparent font-normal"
               }`
             }
           >
-            <img src={hisob} alt="" className="w-6" />
-            Э-Хисоб
+            <div className="flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary pl-6">
+              <img src={hisob} alt="" className="w-6" />
+              Э-Хисоб
+            </div>
           </NavLink>
           <NavLink
             to={"my-books"}
             className={({ isActive }) =>
               `flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary ${
-                isActive ? "font-bold" : "font-normal"
+                isActive
+                  ? "border-primary font-bold border-l-[5px] "
+                  : "border-transparent font-normal"
               }`
             }
           >
-            <img src={kitob} alt="" className="w-6" />
-            Китобларим
+            <div className="flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary pl-6">
+              <img src={kitob} alt="" className="w-6" />
+              Китобларим
+            </div>
           </NavLink>
           <NavLink
             to={"wishlist"}
             className={({ isActive }) =>
               `flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary ${
-                isActive ? "font-bold" : "font-normal"
+                isActive
+                  ? "border-primary font-bold border-l-[5px] "
+                  : "border-transparent font-normal"
               }`
             }
           >
-            <img src={fav} alt="" className="w-6" />
-            Сақланганлар
+            <div className="flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary pl-6">
+              <img src={fav} alt="" className="w-6" />
+              Сақланганлар
+            </div>
           </NavLink>
           <NavLink
             to={"settings"}
             className={({ isActive }) =>
               `flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary ${
-                isActive ? "font-bold" : "font-normal"
+                isActive
+                  ? "border-primary font-bold border-l-[5px] "
+                  : "border-transparent font-normal"
               }`
             }
           >
-            <img src={settings} alt="" className="w-6" />
-            Созламалар
+            <div className="flex gap-4 text-[18px] leading-10 tracking-[0%] text-primary pl-6">
+              <img src={settings} alt="" className="w-6" />
+              Созламалар
+            </div>
           </NavLink>
-          <div className="flex gap-4">
+          <div className="flex gap-4 pl-6">
             <img src={moon} alt="" className="w-6" />
             <p className="text-[18px] leading-10 tracking-[0%] text-primary">
               Тунги режим
