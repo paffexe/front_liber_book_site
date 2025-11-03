@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import account from "../../assets/accaunt.svg";
 import lang from "../../assets/lang.svg";
 
@@ -9,7 +10,7 @@ const Options = () => {
       </div>
       <div className="w-[151px] bg-primary text-white flex items-center justify-center gap-3 py-3 px-6 rounded-[14px] cursor-pointer">
         <img src={account} alt="" width={"24px"} />
-        <p>Кириш</p>
+        <Link to={"/profile"}>Кириш</Link>
       </div>
     </div>
   );
