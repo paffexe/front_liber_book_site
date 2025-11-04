@@ -31,7 +31,7 @@ const ProfileLayout = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-9">
+      <div className="flex gap-9 items-start">
         <div className="flex gap-[7px] flex-col w-[288px] pt-7 pb-12 rounded-2xl shadow-md bg-white">
           <NavLink
             end
