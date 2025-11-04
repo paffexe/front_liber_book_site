@@ -10,7 +10,7 @@ import moon from "../assets/profile/moon.svg";
 
 const ProfileLayout = () => {
   return (
-    <div className="container">
+    <div className="container h-[110vh]">
       <div className=" mt-[52px]">
         <div className="shadow-lg rounded-sm bg-white mb-[60px]">
           <div className="flex items-center p-6 gap-[33px]">
