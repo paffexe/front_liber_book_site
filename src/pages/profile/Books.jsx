@@ -1,3 +1,6 @@
+import img from "../../assets/product1.png";
+import star from "../../assets/books/star.svg";
+
 const Books = () => {
   return (
     <div className="w-[966px] rounded-sm pl-8 pt-8 shadow-lg ">
